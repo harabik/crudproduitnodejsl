@@ -1,0 +1,44 @@
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+      "username" : "firassyy", 
+        "password" : "123456", 
+       "nom": "firas",
+         "prenom": "jabri", 
+         "image" : "",
+         "num" : "97502284",
+         "mail" :"firass@gmail.com", 
+         "gender": "male",
+        "id_ville" :1,
+        "id_region" : 1,
+        "adresse" : "beb bhar",
+        "societe": "tniu", 
+         "poste" : "pppp"
+}
+###
+
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+ "mail":"fighhhho@gmail.com", 
+  "password" : "1234"
+}
+###
+
+POST http://localhost:3000/signupbuss
+Content-Type: application/json
+
+{
+           "login" : "figoo", 
+       "password":"123456",
+        "role" : 1,
+        "nom": "fifa",
+         "prenom" :"football", 
+       "email":"fighhhho@gmail.com", 
+        "num": 9966663,
+       "cin" : 333666,
+      "adresse":"beja"
+}
